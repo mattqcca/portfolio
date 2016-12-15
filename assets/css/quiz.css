@@ -214,7 +214,14 @@ li.btn-primary a {
 }
 */
 
+.modal-header h4 {
+    background-color: #000;
+}
 
+.modal-header > h4 > span {
+    width: 300px !important;
+    background-color: #5167af !important;
+}
 
 
 
