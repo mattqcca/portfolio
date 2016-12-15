@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+		<meta charset="utf-8">
+		<title>PD PolaroiD Documentation</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.png">
+        
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/docs.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+        
+        <!-- Font -->
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+        
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+		
+	</head>
+	
+    <body>
+        
+     <!-- Docs page layout -->
+    <div class="bs-docs-header" id="content" tabindex="-1">
+      <div class="container">
+        <h1>PD-Themes PolaroiD</h1>
+        <p>v1.0</p>
+      </div>
+    </div>
+
+    <div class="container bs-docs-container">
+
+      <div class="row">
+        <div class="col-md-9" role="main">
+          <div class="bs-docs-section">
+              <h1 id="titleandmeta" class="page-header">Title and Meta Tags</h1>
+              <p>Open file /index.html with your favorite text editor. </p>
+                <pre>
+                    <code class="language-html" data-lang="html">
+<span class="c">&lt;!-- ==============================================
+Title and Meta Tags
+=============================================== --&gt;</span>
+<span class="nt">&lt;meta</span> charset="utf-8"<span class="nt">&gt;</span>
+<span class="nt">&lt;title&gt;</span><span class="s">PD PolaroiD</span><span class="nt">&lt;/title&gt;</span>
+<span class="nt">&lt;meta</span> name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"<span class="nt">&gt;</span>
+<span class="nt">&lt;meta</span> http-equiv= "X-UA-Compatible" content="IE=edge"<span class="nt">&gt;</span>
+<span class="nt">&lt;meta</span> description="<span class="s">Site description</span>"<span class="nt">&gt;</span>
+
+<span class="c">&lt;!-- ==============================================
+Favicons
+=============================================== --&gt;</span>
+<span class="nt">&lt;link</span> rel="shortcut icon" href="assets/images/favicon.png"<span class="nt">&gt;</span>
+<span class="nt">&lt;link</span> rel="apple-touch-icon" href="assets/images/touch-icon-iphone.png"<span class="nt">&gt;</span>
+<span class="nt">&lt;link</span> rel="apple-touch-icon" sizes="72x72" href="assets/images/touch-icon-ipad.png"<span class="nt">&gt;</span>
+<span class="nt">&lt;link</span> rel="apple-touch-icon" sizes="114x114" href="assets/images/touch-icon-iphone-retina.png"<span class="nt">&gt;</span>
+<span class="nt">&lt;link</span> rel="apple-touch-icon" sizes="144x144" href="assets/images/touch-icon-ipad-retina.png"<span class="nt">&gt;</span></code>
+                </pre>
+                <p>Replace the orange texts with your own site title and site description.</p>
+              
+              
+              <h1 id="navigation" class="page-header">Navigation</h1>
+              <p>Scroll to the NAVIGATION section.</p>
+                <pre>
+                    <code class="language-html" data-lang="html">
+<span class="nt">&lt;div</span> class="navbar-header"<span class="nt">&gt;</span>
+
+    ...
+
+    <span class="c">&lt;!--======= NAME ========--&gt;</span>
+    <span class="nt">&lt;a</span> class="navbar-brand" href="#home"<span class="nt">&gt;</span><span class="s">JOHN DOE</span><span class="nt">&lt;/a&gt;</span>
+
+<span class="nt">&lt;/div&gt;</span></code>
+                </pre>
+                <p>Replace the text with your own Site Title.</p>
+              
+              <hr/>
+              
+              <p>You don't need to change in the site-nav section.</p>
+
+                <pre>
+                    <code class="language-html" data-lang="html">
+<span class="nt">&lt;div</span> id="site-nav" class="navbar-collapse collapse"<span class="nt">&gt;</span>
+    <span class="nt">&lt;ul</span> class="nav navbar-nav navbar-right"<span class="nt">&gt;</span>
+        <span class="nt">&lt;li</span> class="sr-only"<span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> href="#home"<span class="nt">&gt;</span>Home<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> href="#about"<span class="nt">&gt;&lt;i</span> class="fa fa-user"<span class="nt">&gt;&lt;/i&gt;</span> About Me<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> href="#skills"<span class="nt">&gt;&lt;i</span> class="fa fa-pie-chart"<span class="nt">&gt;&lt;/i&gt;</span> Skills<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> href="#portfolio"<span class="nt">&gt;&lt;i</span> class="fa fa-th"<span class="nt">&gt;&lt;/i&gt;</span> Works<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> href="#contact"<span class="nt">&gt;&lt;i</span> class="fa fa-comments-o"<span class="nt">&gt;&lt;/i&gt;</span> Contact Me<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li>&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code>
+                </pre>              
+              
+              <h1 id="header" class="page-header">Header</h1>
+              <p>Scroll to the HEADER section.</p>
+                <pre>
+                    <code class="language-html" data-lang="html">
+<span class="c">&lt;!-- ==============================================
+HEADER
+=============================================== --></span>
+<span class="nt">&lt;header</span> id="home"<span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> class="container text-center"<span class="nt">&gt;</span>
+
+        <span class="nt">&lt;div</span> class="hello"<span class="nt">&gt;</span>
+            <span class="nt">&lt;p&gt;</span><span class="s">HELLO</span><span class="nt">&lt;/p&gt;</span>
+            <span class="nt">&lt;h1&gt;</span><span class="s">I AM JOHN DOE</span><span class="nt">&lt;/h1&gt;</span>
+            <span class="nt">&lt;p</span> class="p2"<span class="nt">&gt;</span><span class="s">AND</span><span class="nt">&lt;/p&gt;</span>
+            <span class="nt">&lt;H2&gt;</span><span class="s">I AM A WEB DESIGNER</span><span class="nt">&lt;/H2&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/header&gt;</span><span class="c">&lt;!--End home header --&gt;</span></code>
+                </pre>
+                <p>Change the text in the header section.</p>
+              <h4>Header Background Image</h4>
+              <p>Just replace the image header-bg.jpg in the assets/images/ folder with the one of your choice but keeping the filename as is.</p>
+              
+              <h1 id="aboutme" class="page-header">About me</h1>
+              <p>Scroll to the ABOUT ME section.</p>
+                <pre>
+                    <code class="language-html" data-lang="html">
+<span class="nt">&lt;div</span> class="col-xs-12"<span class="nt">&gt;</span>
+    <span class="nt">&lt;h1</span> class="big-text orange wow fadeInDown text-center"<span class="nt">&gt;</span>
+        <span class="nt">&lt;i</span> class="fa fa-user"<span class="nt">&gt;&lt;/i&gt;</span>
+        About Me
+    <span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;p</span> class="about-text wow fadeInDown"<span class="nt">&gt;</span>
+        <span class="s">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</span>
+    <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code>
+                </pre>
+                <p>Replace the text with your about text.</p>
+              
+                <pre>
+                    <code class="language-html" data-lang="html">
+<span class="c">&lt;!-- ==== PHOTO ==== --&gt;</span>
+<span class="nt">&lt;div</span> class="col-sm-6"<span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> id="trigger1"<span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> id="pin1" class="imageCont"<span class="nt">&gt;</span>
+        <span class="nt">&lt;img</span> class="wow rollIn image" data-wow-offset="200" src="assets/images/about.jpg" alt="" <span class="nt">/&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code>
+                </pre>
+                <p>Replace the image about.jpg in the assets/images/ folder with the one of your choice but keeping the filename as is.</p>
+              
+                <pre>
+                    <code class="language-html" data-lang="html">
+<span class="c">&lt;!-- ==== TIMELINE ==== --&gt;</span>
+<span class="nt">&lt;div</span> class="col-sm-6 timeline"<span class="nt">&gt;</span>
+    <span class="nt">&lt;i</span> id="timeline-top" class="fa fa-clock-o"<span class="nt">&gt;&lt;/i&gt;</span>
+
+    <span class="nt">&lt;div</span> class="wow fadeInRight" data-wow-offset="200"<span class="nt">&gt;</span>
+        <span class="nt">&lt;i</span> class="fa <span class="s">fa-smile-o</span> wow swing" data-wow-offset="200" data-wow-delay="1s"<span class="nt">&lt;/i&gt;</span>
+        <span class="nt">&lt;h3&gt;</span><span class="s">1990.01.01.</span><span class="nt">&lt;/h3&gt;</span>
+        <span class="nt">&lt;p&gt;</span>
+            <span class="nt">&lt;span&gt;</span><span class="s">Born</span><span class="nt">&lt;/span&gt;</span>
+            <span class="s">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</span>
+        <span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    ...</code>
+                </pre>
+                <p>Change the Fontawesome icons with the ones of your choise in the &lt;i&gt; tags.
+                    <a href="#icons">More info</a>
+                </p>
+                <p>Change the text of the timeline item tags.</p>
+              
+              
+              <h1 id="skills" class="page-header">Skills</h1>
+              <p>Scroll to the SKILLS section.</p>
+                <pre>
+                    <code class="language-html" data-lang="html">
+<span class="nt">&lt;div</span> class="col-xs-12"<span class="nt">&gt;</span>
+    <span class="nt">&lt;h1</span> class="big-text wow fadeInDown text-center" data-wow-offset="100"<span class="nt">&gt;</span>
+        <span class="nt">&lt;i</span> class="fa fa-pie-chart"<span class="nt">&gt;&lt;/i&gt;</span>
+         My skills
+    <span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> class="col-md-3 col-sm-6 text-center"<span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> class="chart" data-percent="<span class="s">90</span>"<span class="nt">&gt;</span>
+        <span class="nt">&lt;span</span> class="title"<span class="nt">&gt;</span><span class="s">HTML 5</span><span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;span</span> class="percent"<span class="nt">&gt;&lt;/span&gt;</span>
+    <span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code>
+                </pre>
+                <p>Change the percentage of each skill by changing the value of the data-percent="" attribute.</p>
+                <p>Change the title of each skill.</p>
+              
+                <pre>
+                    <code class="language-html" data-lang="html">
+<span class="c">&lt;!--Language--&gt;</span>
+
+<span class="nt">&lt;div</span> class="col-lg-4 col-md-6 skill10 text-center"<span class="nt">&gt;</span>
+    <span class="nt">&lt;p&gt;</span><span class="s">English</span><span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;i</span> class="fa <span class="s">fa-circle</span> wow fadeInLeft" data-wow-delay="0s"<span class="nt">&gt;&lt;/i&gt;</span>
+    <span class="nt">&lt;i</span> class="fa <span class="s">fa-circle</span> wow fadeInLeft" data-wow-delay=".1s"<span class="nt">&gt;&lt;/i&gt;</span>
+    <span class="nt">&lt;i</span> class="fa <span class="s">fa-circle</span> wow fadeInLeft" data-wow-delay=".2s"<span class="nt">&gt;&lt;/i&gt;</span>
+    <span class="nt">&lt;i</span> class="fa <span class="s">fa-circle</span> wow fadeInLeft" data-wow-delay=".3s"<span class="nt">&gt;&lt;/i&gt;</span>
+    <span class="nt">&lt;i</span> class="fa <span class="s">fa-circle</span> wow fadeInLeft" data-wow-delay=".4s"<span class="nt">&gt;&lt;/i&gt;</span>
+    <span class="nt">&lt;i</span> class="fa <span class="s">fa-circle</span> wow fadeInLeft" data-wow-delay=".5s"<span class="nt">&gt;&lt;/i&gt;</span>
+    <span class="nt">&lt;i</span> class="fa <span class="s">fa-circle</span> wow fadeInLeft" data-wow-delay=".6s"<span class="nt">&gt;&lt;/i&gt;</span>
+    <span class="nt">&lt;i</span> class="fa <span class="s">fa-circle</span> wow fadeInLeft" data-wow-delay=".7s"<span class="nt">&gt;&lt;/i&gt;</span>
+    <span class="nt">&lt;i</span> class="fa <span class="s">fa-circle-o</span> wow fadeInLeft" data-wow-delay=".8s"<span class="nt">&gt;&lt;/i&gt;</span>
+    <span class="nt">&lt;i</span> class="fa <span class="s">fa-circle-o</span> wow fadeInLeft" data-wow-delay=".9s"<span class="nt">&gt;&lt;/i&gt;</span>
+<span class="nt">&lt;/div&gt;
+
+...</code>
+                </pre>
+                <p>Change the title of each skill.</p>
+                <p>Change fa-circle and fa-circle-o classes</p>
+                <p><i>fa-circle</i> - full point icon</p>
+                <p><i>fa-circle-o</i> - blank point icon</p>
+              
+              
+              <h1 id="works" class="page-header">Works</h1>
+              <p>Scroll to the WORKS section.</p>
+                <pre>
+                    <code class="language-html" data-lang="html">
+<span class="c">&lt;!--==== Portfolio Filters ====--&gt;</span>
+<span class="nt">&lt;div</span> id="filter-works"<span class="nt">&gt;</span>
+    <span class="nt">&lt;ul&gt;</span>
+        <span class="nt">&lt;li</span> class="active wow fadeInRight" data-wow-delay="0s"<span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> href="#" data-filter="*"<span class="nt">&gt;</span>All<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li</span> class="wow fadeInRight" data-wow-delay=".3s"<span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> href="#" data-filter="<span class="s">.logo</span>"<span class="nt">&gt;</span><span class="s">Logo</span><span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li</span> class="wow fadeInRight" data-wow-delay=".6s"<span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> href="#" data-filter="<span class="s">.webdesign</span>"<span class="nt">&gt;</span><span class="s">Web design</span><span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li</span> class="wow fadeInRight" data-wow-delay=".9s"<span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> href="#" data-filter="<span class="s">.photography</span>"<span class="nt">&gt;</span><span class="s">Photography</span><span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+<span class="nt">&lt;/div&gt;</span><span class="c">&lt;!--End portfolio filters --&gt;</span></code>
+                </pre>
+                <p>Change the value of the data-filter="" attribute to match the categories you entered above.</p>
+                <p>Delete or add more to have as many as you need.</p>
+                <p>Change the title of each filter.</p>
+              
+                <pre>
+                    <code class="language-html" data-lang="html">
+<span class="c">&lt;!-- ==== PROJECT ITEM ==== --&gt;</span>
+<span class="nt">&lt;article</span> class="project-item <span class="s">webdesign</span>" data-toggle="modal" data-target=".project-item-1"<span class="nt">&gt;</span>
+    <span class="nt">&lt;img</span> class="img-responsive project-image" src="<span class="s">assets/images/thumb.png</span>"  alt=""<span class="nt">&gt;</span><span class="c">&lt;!--Project thumb --&gt;</span>
+    <span class="nt">&lt;h2</span> class="project-title"<span class="nt">&gt;</span><span class="s">Webdesign #1</span><span class="nt">&lt;/h2&gt;</span><span class="c">&lt;!--Project Title --&gt;</span>
+<span class="nt">&lt;/article&gt;</span></code>
+                </pre>
+                <p>Give the project the suitable category class(es) from those in filters, for the project to belong in one (or more) category but do not delete the project-item class.</p>
+                <p>Provide the path to the project thumb in the src attribute of the img tag.</p>
+                <p>Change the text of the project title</p>
+              
+                <pre>
+                    <code class="language-html" data-lang="html">
+<span class="c">&lt;!--==== Project Modal ====--&gt;</span>
+<span class="nt">&lt;div</span> class="modal fade project-item-1"<span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> class="modal-dialog modal-lg"<span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> class="modal-content"<span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> class="modal-header"<span class="nt">&gt;</span>
+        <span class="nt">&lt;button</span> type="button" class="close" data-dismiss="modal"<span class="nt">&gt;
+            &lt;span</span> aria-hidden="true"<span class="nt">&gt;&lt;i</span> class="fa fa-times"<span class="nt">&gt;&lt;/i&gt;</span><span class="nt">&lt;/span&gt;
+            &lt;span</span> class="sr-only"<span class="nt">&gt;</span>Close<span class="nt">&lt;/span&gt;
+        &lt;/button&gt;</span>
+          <span class="nt">&lt;h4</span> class="modal-title"<span class="nt">&gt;</span><span class="s">Webdesign #1</span> <span class="nt">&lt;span&gt;</span><span class="s">webdesign</span><span class="nt">&lt;/span&gt;&lt;/h4&gt;</span><span class="c">&lt;!--Modal Title, Subtitle --&gt;</span>
+        <span class="nt">&lt;img</span> src="<span class="s">assets/images/project.jpg</span>" alt="" /<span class="nt">&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> class="modal-body"<span class="nt">&gt;</span>
+        <span class="nt">&lt;p&gt;</span><span class="s">Lorem ipsum dolor sit amet...</span><span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;img</span> class="<span class="s">width50</span>" src="<span class="s">assets/images/project.jpg</span>" alt="" /<span class="nt">&gt;</span>
+        <span class="nt">&lt;p&gt;</span><span class="s">Lorem ipsum dolor sit amet...</span> <span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;img</span> class="<span class="s">width100</span>" src="<span class="s">assets/images/project.jpg</span>" alt="" <span class="nt">/&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code>
+                </pre>
+                <p>Change the text of the project title and subtitle.</p>
+                <p>Provide the path to the project head image in the src attribute of the img tag or delete img tag.</p>
+                <p>Within the class modal-body replace the text with the project description.</p>
+                <p>Use image classes:</p>
+                <p><i>width25</i> - 25% width image</p>
+                <p><i>width50</i> - 50% width image</p>
+                <p><i>width75</i> - 75% width image</p>
+                <p><i>width100</i> - 100% width image</p>
+              
+              
+              <h1 id="contactme" class="page-header">Contact Me</h1>
+              <p>Scroll to the CONTACT ME section.</p>
+                <pre>
+                    <code class="language-html" data-lang="html">
+<span class="c">&lt;!--=== Contact info ===--&gt;</span>
+<span class="nt">&lt;div</span> class="col-md-6 contact-info"<span class="nt">&gt;</span>
+    <span class="nt">&lt;p</span> class="contact-text wow fadeInRight"<span class="nt">&gt;</span>
+        <span class="s">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</span>
+    <span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;ul</span> class="contact-list"<span class="nt">&gt;</span>
+        <span class="nt">&lt;li</span> class="wow fadeInRight" data-wow-delay="0s"<span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> id="mapLink" target="_blank" href=""<span class="nt">&gt;</span>
+                <span class="nt">&lt;i</span> class="fa fa-map-marker"<span class="nt">&gt;&lt;/i&gt; </span>
+                <span class="s">Example Road 123., Budapest, H-1234, HUNGARY </span>
+            <span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li</span> class="wow fadeInRight" data-wow-delay="0s"<span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> href="tel:<span class="s">12345678910</span>"<span class="nt">&gt;</span>
+                <span class="nt">&lt;i</span> class="fa fa-phone"<span class="nt">&gt;&lt;/i&gt;</span> <span class="s">1234 567 8910</span>
+            <span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li</span> class="wow fadeInRight" data-wow-delay="0s"<span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> href="mailto:<span class="s">info@panacz-design.com"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;i</span> class="fa fa-envelope"><span class="nt">&lt;/i&gt;</span> <span class="s">info@panacz-design.com</span>
+            <span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="c">&lt;!--=== End Contact ===--&gt;</span></code>
+                </pre>
+                <p>Change the text of the contact description.</p>
+                <p>Change the text of the address.</p>
+                <p>Add your phone number and e-mail address.</p>
+              
+                <pre>
+                    <code class="language-html" data-lang="html">
+<span class="c">/*============================================
+Map
+==============================================*/</span>
+var mapPoint = {
+        'lat': <span class="s">47.496733</span>, 
+        'lng': <span class="s">19.044748</span>,
+        'zoom' : <span class="s">15</span>,
+        'icon': 'assets/images/marker.png'
+    };</code>
+                </pre>
+                <p>At the bottom of the file, you can see the configuration of the Google Map.</p>
+                <p><i>lat</i> - Point Latitude</p>
+                <p><i>lng</i> - Point Longitude</p>
+                <p><i>zoom</i> - Map zoom factor</p>
+              
+              
+              <h1 id="icons" class="page-header">Icons</h1>
+              <p>PolaroiD use <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font Awesome</a> icons.</p>
+                <pre>
+                    <code class="language-html" data-lang="html">
+<span class="nt">&lt;i</span> class="<span class="s">fa fa-twitter</span>"<span class="nt">&gt;&lt;/i&gt;</span></code>
+                </pre>
+                <p>Use class fa and an icon class. <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Icon list</a></p>
+              
+              
+              <h1 id="animations" class="page-header">Animations</h1>
+              <p>PolaroiD use <a href="http://mynameismatthieu.com/WOW/" target="_blank">wow.js</a> to add <a href="https://daneden.github.io/animate.css/" target="_blank">animate.css</a> animations.</p>
+                <pre>
+                    <code class="language-html" data-lang="html">
+<span class="nt">&lt;li</span> class="<span class="s">wow fadeInRight</span>" <span class="s">data-wow-duration="2s" data-wow-delay="0s"  data-wow-offset="10" data-wow-iteration="5"</span><span class="nt">&gt;</span>
+    ...
+<span class="nt">&lt;/li&gt;</span></code>
+                </pre>
+                <p>Use class wow and an animation class. <a href="https://daneden.github.io/animate.css/" target="_blank">Animations</a></p>
+                <p>
+                <i>data-wow-duration</i> - Change the animation duration<br/>
+                <i>data-wow-delay</i> - Delay before the animation starts<br/>
+                <i>data-wow-offset</i> - Distance to start the animation (related to the browser bottom)<br/>
+                <i>data-wow-iteration</i> - Number of times the animation is repeated
+                </p>
+              
+              
+              <h1 id="colors" class="page-header">Theme colors</h1>
+              <p>Scroll to the top of the /index.html. </p>
+                <pre>
+                    <code class="language-html" data-lang="html">
+<span class="c">&lt;!-- ==============================================
+CSS
+=============================================== --&gt;</span>    
+<span class="nt">&lt;link</span> rel="stylesheet" href="assets/css/bootstrap.min.css"<span class="nt">&gt;</span>
+<span class="nt">&lt;link</span> rel="stylesheet" href="assets/css/font-awesome.min.css"<span class="nt">&gt;</span>
+<span class="nt">&lt;link</span> rel="stylesheet" href="assets/css/animate.css"<span class="nt">&gt;</span>
+<span class="nt">&lt;link</span> rel="stylesheet" href="assets/css/<span class="s">styles-orange.css</span>"<span class="nt">&gt;</span></code>
+                </pre>
+                <p>PolaroiD comes with 6 predefined color schemes.</p>
+                <p>To use the one you like just replace the styles-orange.css file with the one of your choice.</p>
+                <p>
+                    <img src="images/color-1.jpg"> styles-orange.css
+                </p>
+                <p>
+                    <img src="images/color-2.jpg"> styles-blue.css
+                </p>
+                <p>
+                    <img src="images/color-3.jpg"> styles-green.css
+                </p>
+                <p>
+                    <img src="images/color-4.jpg"> styles-pink.css
+                </p>
+                <p>
+                    <img src="images/color-5.jpg"> styles-purple.css
+                </p>
+                <p>
+                    <img src="images/color-6.jpg"> styles-red.css
+                </p>
+              
+              
+            </div>
+        </div>
+          
+          
+          
+
+        <div class="col-md-3" role="complementary">
+          <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm">
+            <ul class="nav bs-docs-sidenav">
+
+                <li>
+                  <a href="#titleandmeta">Title and Meta Tags</a>
+                </li>
+                <li>
+                  <a href="#navigation">Navigation</a>
+                </li>
+                <li>
+                  <a href="#header">Header</a>
+                </li>
+                <li>
+                  <a href="#aboutme">About me</a>
+                </li>
+                <li>
+                  <a href="#skills">Skills</a>
+                </li>
+                <li>
+                  <a href="#works">Works</a>
+                </li>
+                <li>
+                  <a href="#contactme">Contact Me</a>
+                </li>
+                <li>
+                  <hr/>
+                  <a href="#icons">Icons</a>
+                </li>
+                <li>
+                  <a href="#animations">Animations</a>
+                </li>
+                <li>
+                  <a href="#colors">Theme colors</a>
+                </li>
+
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bs-docs-footer" role="contentinfo">
+        Thank you for purchasing this template.<br/>
+        If you have any questions please contact me!<br/>
+        <a href="mailto:info@panacz-design.com">info@panacz-design.com</a>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+
+
+
+
+    </body>
+</html>

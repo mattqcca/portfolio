@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+
+<head>
+
+    <!-- ==============================================
+		Title and Meta Tags
+		=============================================== -->
+    <meta charset="utf-8">
+    <title>PD PolaroiD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta description="Site description">
+
+    <!-- ==============================================
+		Favicons
+		=============================================== -->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="assets/images/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/touch-icon-ipad-retina.png">
+
+    <!-- ==============================================
+		CSS
+		=============================================== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/styles-orange.css">
+    <link rel="stylesheet" href="assets/css/quiz.css">
+    <script src="https://use.fontawesome.com/3fffae887a.js"></script>
+
+    <!-- ==============================================
+		Fonts
+		=============================================== -->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <!-- ==============================================
+		JS
+		=============================================== -->
+
+    <!--[if lt IE 9]>
+			<script src="assets/js/libs/respond.min.js"></script>
+		<![endif]-->
+
+    <script type="text/javascript" src="assets/js/libs/modernizr.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#main-nav" data-offset="200">
+
+
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+
+
+    <!--=== PAGE PRELOADER ===-->
+    <div id="page-loader"><span class="page-loader-gif"></span></div>
+
+
+    <!-- ==============================================
+		MAIN NAV
+		=============================================== -->
+    <div id="main-nav" class="navbar navbar-fixed-top">
+
+        <div class="container">
+
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+
+                <!--======= NAME ========-->
+                <a class="navbar-brand" href="#home">MATHIEU ROY, MBA</a>
+
+            </div>
+
+            <div id="site-nav" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="sr-only">
+                        <a href="#home"></a>
+                    </li>
+                    <li>
+                        <a href="#home"><i class="fa fa-user"></i> À propos</a>
+                    </li>
+                    <li>
+                        <a href="#about" id="contact-nav"><i class="fa fa-check-square-o"></i> Test</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio"><i class="fa fa-th"></i> Photos</a>
+                    </li>
+                    <li>
+                        <a href="#contact-modal" data-toggle="modal" data-target="#contact-modal" id="test"><i class="fa fa-comments-o"></i> Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    <!--End main-nav -->
+
+    <!-- ==============================================
+		HEADER
+		=============================================== -->
+    <header id="home">
+        <div class="container text-center">
+
+
+            <div class="hello hidden">
+                <!--                    <p>QUIZ</p>-->
+                <h1>BIENVENUE AU QUIZ:</h1>
+                <p class="p2">DÉCOUVREZ VOTRE </p>
+                <H2>STAGIAIRE IDÉAL!</H2>
+            </div>
+
+            <div class="row col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 nametest wow fadeInDown">
+                <h4>Essayez notre nouveau test:</h4>
+                <h4 id="titre-facequiz">Quel serait votre stagiaire idéal?</h4>
+                <img src="assets/images/nametests.png" alt="">
+                <div class="row teaser">
+                    <h4>Quelqu'un qui a déjà de l'expérience dans le web et applications mobiles?</h4>
+                    <h4>Qui connaît et s'adapte à la réalité de ses clients, autant dans une grande corporation que dans une startup?</h4>
+                    <h4>Qui a des compétences en HTML, CSS, Javascript, marketing web, UX, ergonomie et accessiblité du web?</h4>
+                    <h4>Un professionnel bilingue ayant déjà un background de gestion et comme chargé de projet web?</h4>
+                    <a href="#about" offset="200">
+                        <div class="btn-primary col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1" id="face-btn">Faire le test maintenant</div>
+                    </a>
+                </div>
+            </div>
+    </header>
+
+    <div class="row text-center" id="bouton-quiz">
+        <a href="#about" data-target="#about">
+            <div class="btn btn-primary btn-lg fadeInDown">
+                Cliquez ici pour le savoir</div>
+        </a>
+    </div>
+
+    </div>
+
+
+    <!--End home header -->
+
+    <!-- ==============================================
+        ABOUT
+        =============================================== -->
+
+
+    <section id="about" class="bg1">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-xs-12">
+                    <h1 class="big-text orange wow fadeInDown text-center quiz-title">
+                            <i class="fa fa-check-square-o"></i> 
+                            TEST
+                    </h1>
+
+                </div>
+
+                <!-- ==== TIMELINE ==== -->
+                <div class="col-sm-9 col-sm-offset-2 timeline wow fadeInUp">
+                    <i id="timeline-top" class="fa fa-exclamation-triangle"></i>
+                    <p id="avertissement">&nbsp;Avant toute chose, réglons tout de suite la question la plus populaire...</p>
+
+
+
+                    <div class="wow fadeInUp quizset" data-wow-offset="200">
+                        <i class="fa fa-graduation-cap wow swing" data-wow-offset="200" data-wow-delay="1s"></i>
+                        <h3 id="question1">Pourquoi un détenteur de MBA retournerait sur les bancs d’école d’un AEC afin d’apprendre tout ce qu’il y a à savoir sur le web?</h3>
+
+                        <div class="quiz" id="quiz" data-toggle="buttons">
+
+
+                            <div class="panel">
+                                <label class="element-animation1 btn btn-lg btn-primary btn-block panel-heading">
+                                    <a href="#item1a" data-toggle="collapse"> <span class="btn-label"><i class="fa fa-chevron-down chevron" aria-hidden="true"></i></span></a>
+                                    <input type="radio" name="q_answer" value="1">Pour pousser plus loin ses compétences acquises depuis 2 ans en web et applications mobiles</label>
+                                <div id="item1a" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <blockquote>en tant que conseiller spécial au DG et inventeur d’une technologie primée et développée avec l’Université Laval à Québec, s’utilisant avec les applications mobiles. Et donc: à se casser la tête pour amener le produit plus loin. L'application, l'expérience utilisateur, le site web, le marketing, les stratégie d'affaires, etc.</blockquote>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel">
+                                <label class="element-animation2 btn btn-lg btn-primary btn-block panel-heading"><a href="#item1b" data-toggle="collapse"><span class="btn-label"><i class="fa fa-chevron-down chevron" aria-hidden="true"></i></span></a>
+                                    <input type="radio" name="q_answer" value="2">Pour être entouré de gens créatifs n'ayant pas peur du changement</label>
+                                <div id="item1b" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <blockquote>tous aussi allergiques au statu quo que moi et voyant les nouvelles technologies comme un actif. Non pas comme une dépense.</blockquote>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel">
+                                <label class="element-animation3 btn btn-lg btn-primary btn-block panel-heading"><a href="#item1c" data-toggle="collapse"><span class="btn-label"><i class="fa fa-chevron-down chevron" aria-hidden="true"></i></span></a>
+                                    <input type="radio" name="q_answer" value="3">Parce qu'il est fondamentalement un "corporate" geek</label>
+                                <div id="item1c" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <blockquote>Fan de cinéma et de nouvelles technologies à temps plein ...et de sa console PS4 à temps perdu!
+                                            <br>
+                                            <br>#generationNintendo
+                                            <br>#BatmanFan
+                                            <br>#action&adventure</blockquote>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel">
+                                <label id="good1" class="element-animation4 btn btn-lg btn-primary btn-block panel-heading good-answer"><a href="#item1d" data-toggle="collapse"><span class="btn-label pas-scroll"><i class="fa fa-chevron-down chevron" aria-hidden="true"></i></span></a>
+                                    <input type="radio" name="q_answer" value="3">Toutes ces réponses</label>
+                                <div id="item1d" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <blockquote>
+                                            Grand intérêt pour les [nouveaux] médias de toute sorte, l'interactivité des nouvelles technologies, les sports, le cinéma, les jeux vidéo, la réalité virtuelle, le UX. L'économie, la psychologie et l'entreprenariat.</blockquote>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="wow fadeInUp quizset" data-wow-offset="200">
+                        <i class="fa fa-briefcase wow " data-wow-offset="200" data-wow-delay="1s"></i>
+                        <h3 class="question2">Comment votre stagiaire idéal pourrait se définir professionnellement?</h3>
+
+                        <div class="quiz" data-toggle="buttons" id="question2">
+
+
+
+
+                            <div class="panel">
+                                <label class="element-animation1 btn btn-lg btn-primary btn-block panel-heading"><a href="#item2a" data-toggle="collapse"><span class="btn-label"><i class="fa fa-chevron-down chevron" aria-hidden="true"></i></span></a>
+                                    <input type="radio" name="q_answer" value="1">Conseiller</label>
+                                <div id="item2a" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <blockquote>Ironiquement bien meilleur à faire croître les idées des autres que les siennes. Le profil parfait d'un conseiller aimant aider les autres avec leurs idées! Les besoins clients sont toujours au centre de ses analyses; même qu'il se plaît parfois bien davantage dans le rôle d’influenceur informel que de décideur formel.</blockquote>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel">
+                                <label class="element-animation2 btn btn-lg btn-primary btn-block panel-heading"><a href="#item2b" data-toggle="collapse"><span class="btn-label"><i class="fa fa-chevron-down chevron" aria-hidden="true"></i></span></a>
+                                    <input type="radio" name="q_answer" value="2">Facilitateur</label>
+                                <div id="item2b" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <blockquote>Un excellent généraliste bien plus qu’un spécialiste. Lors de ses projets web, il ressent d'ailleurs beaucoup de fierté à pouvoir aider ses collègues avec leurs divers types d'analyse, leurs concepts, leurs contenus et même leur code. Grande capacité à prendre le meilleur de chacun et en faire un tout cohérent qui motive l’équipe et qui plaît au client.</blockquote>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel">
+                                <label class="element-animation3 btn btn-lg btn-primary btn-block panel-heading"><a href="#item2c" data-toggle="collapse"><span class="btn-label"><i class="fa fa-chevron-down chevron" aria-hidden="true"></i></span></a>
+                                    <input type="radio" name="q_answer" value="3">Stratège</label>
+                                <div id="item2c" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <blockquote>La vision d’ensemble et la vision stratégique: les mots qui reviennent le plus souvent quand on parle de lui, et qui le gardent toujours en mode solution peu importe le contexte.</blockquote>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel">
+                                <label id="good2" class="element-animation4 btn btn-lg btn-primary btn-block panel-heading good-answer"><a href="#item2d" data-toggle="collapse"><span class="btn-label"><i class="fa fa-chevron-down chevron" aria-hidden="true"></i></span></a>
+                                    <input type="radio" name="q_answer" value="4">Un heureux mélange des trois</label>
+                                <div id="item2d" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <blockquote>Variable selon la situation et le besoin, de par ma polyvalence et ma vision d'ensemble.
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="wow fadeInUp quizset" data-wow-offset="200">
+                        <i class="fa fa-heart wow " data-wow-offset="200" data-wow-delay="1s"></i>
+                        <h3 class="question3">Quelles seraient ses valeurs?</h3>
+
+                        <div class="quiz" data-toggle="buttons" id="question3">
+
+                            <div class="panel">
+                                <label class="element-animation1 btn btn-lg btn-primary btn-block panel-heading"><a href="#item3a" data-toggle="collapse"><span class="btn-label"><i class="fa fa-chevron-down" aria-hidden="true"></i></span></a>
+                                    <input type="radio" name="q_answer" value="1">Le travail d'équipe</label>
+                                <div id="item3a" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <blockquote>Pour lui, 1 + 1 = 3. La compétence est une chose, mais c'est en rassemblant nos forces et en focussant sur celles-ci qu'on soulève des montagnes. L'unité prime sur n'importe quel individu, y compris le leader. Un bon leader c'est un rassembleur.</blockquote>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel">
+                                <label class="element-animation1 btn btn-lg btn-primary btn-block panel-heading"><a href="#item3b" data-toggle="collapse"><span class="btn-label"><i class="fa fa-chevron-down" aria-hidden="true"></i></span></a>
+                                    <input type="radio" name="q_answer" value="2">Le gros fun</label>
+                                <div id="item3b" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <blockquote><em>"Find what you love and never work another day in your life".</em></blockquote>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel">
+                                <label class="element-animation1 btn btn-lg btn-primary btn-block panel-heading"><a href="#item3c" data-toggle="collapse"><span class="btn-label"><i class="fa fa-chevron-down" aria-hidden="true"></i></span></a>
+                                    <input type="radio" name="q_answer" value="3">L'audace</label>
+                                <div id="item3c" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <blockquote>Suivre la saveur du mois? Non merci. Ce qui compte, c’est la valeur ajoutée. C'est ce qui guide toutes ses décisions.
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel">
+                                <label id="good3" class="element-animation1 btn btn-lg btn-primary btn-block panel-heading good-answer"><a href="#item3d" data-toggle="collapse"><span class="btn-label"><i class="fa fa-chevron-down" aria-hidden="true"></i></span></a>
+                                    <input type="radio" name="q_answer" value="4">Tout ça! en plus de ses grandes ambitions</label>
+                                <div id="item3d" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <blockquote>Mission de changer le monde et d'améliorer le quotidien des gens, autant au niveau économique [sa formation] que par le UX [sa passion]</blockquote>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="wow fadeInUp" data-wow-offset="200" id="question4">
+                        <i class="fa fa-thumbs-up wow " data-wow-offset="200" data-wow-delay="1s"></i>
+                        <h3 class="question4">Quelle serait sa valeur ajoutée?</h3>
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!--End about section -->
+
+
+    <!-- ==============================================
+		SKILLS
+		=============================================== -->
+    <section id="skills" class="bg2">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-xs-12">
+                    <h1 class="big-text wow fadeInDown text-center" data-wow-offset="100">
+                            <i class="fa fa-pie-chart"></i>
+                             My skills
+                        </h1>
+                </div>
+
+                <div class="col-md-3 col-sm-6 text-center">
+                    <span class="chart" data-percent="90">
+                            <span class="title">Présentation</span>
+                    <span class="percent"></span>
+                    </span>
+                </div>
+
+                <div class="col-md-3 col-sm-6 text-center">
+                    <span class="chart" data-percent="80">
+                            <span class="title">UX/UI</span>
+                    <span class="percent"></span>
+                    </span>
+                </div>
+
+                <div class="col-md-3 col-sm-6 text-center">
+                    <span class="chart" data-percent="80">
+                            <span class="title">Front-end</span>
+                    <span class="percent"></span>
+                    </span>
+                </div>
+
+                <div class="col-md-3 col-sm-6 text-center">
+                    <span class="chart" data-percent="70">
+                            <span class="title">Back-end</span>
+                    <span class="percent"></span>
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--End skills section -->
+
+    <!-- ==============================================
+		PORTFOLIO
+		=============================================== -->
+    <section id="portfolio" class="">
+
+        <div class="container">
+            <!--==== Portfolio Filters ====-->
+            <div id="filter-works" class="wow fadeInUp" data-wow-offset="1200">
+                <ul>
+
+                    <li class="wow fadeInRight btn btn-primary btn-ptf" data-wow-delay=".1s">
+                        <a href="#" data-filter=".strategie">Stratégie</a>
+                    </li>
+                    <li class="wow fadeInRight btn btn-primary btn-ptf" data-wow-delay=".1s">
+                        <a href="#" data-filter=".marketing">Marketing</a>
+                    </li>
+                    <li class="wow fadeInRight btn btn-primary btn-ptf" data-wow-delay=".1s">
+                        <a href="#" data-filter=".ux">UX</a>
+                    </li>
+
+                    <li class="wow fadeInRight btn btn-primary btn-ptf" id="good4" data-wow-delay="0.1s">
+                        <a href="#" data-filter="*">Toutes ces réponses</a>
+                    </li>
+                </ul>
+            </div>
+            <!--End portfolio filters -->
+        </div>
+
+
+        <div class="container masonry-wrapper">
+
+            <div id="projects-container">
+
+
+
+                <!-- ==== PROJECT ITEM ==== -->
+
+                <article class="project-item strategie marketing ux" data-toggle="modal" data-target=".project-item-2">
+                    <img class="img-responsive project-image" src="assets/images/projets/nouvothe-thumb.png" alt="">
+                    <!--Project thumb -->
+                    <h2 class="project-title">Site web - Bootstrap</h2>
+                    <!--Project Title -->
+                </article>
+
+                <!--==== Project Modal ====-->
+                <div class="modal fade project-item-2">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+                                <!--                              <h4 class="modal-title">Webdesign #1 <span>webdesign</span></h4>Modal Title, Subtitle -->
+                                <img src="assets/images/projets/nouvothe.png" alt="" />
+                            </div>
+                            <div class="modal-body">
+                                <h3>NouvoThé</h3>
+                                <br>
+                                <p>
+                                    <strong>Mon rôle:</strong>
+                                    <br>Chargé de projet d'une équipe de 2 programmeurs, un designer et un directeur artistique chargé de la vidéo et des effets spéciaux.
+                                    <br>
+                                    <br>
+                                    <strong>Mandat:</strong>
+                                    <br> Faire la promotion et la démonstration d'un prototype d'objet intelligent connecté (en première phase de développement par le Cégep Limoilou) par le biais d'un site web.
+                                    <br>
+                                    <br>
+                                    <strong>Envergure:</strong>
+                                    <br>Conception, design web, développement, stratégie (avec le client), branding, rédaction, design d'interfaces mobiles et tournage d'une vidéo interactive intégrée au site web.
+                                    <br>
+                                    <br>
+
+                                    <strong>Technologies utilisées:</strong>
+                                    <br> Bootstrap, Javascript, After Effects, Premiere.
+
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ==== END PROJECT ITEM ==== -->
+
+
+
+                <!-- ==== PROJECT ITEM ==== -->
+                <article class="project-item ux" data-toggle="modal" data-target=".project-item-1">
+                    <img class="img-responsive project-image" src="assets/images/projets/benjaminbutton-thumb.png" alt="">
+                    <!--Project thumb -->
+                    <h2 class="project-title">Site web - responsive <!--Project Title -->
+					</article>
+                    
+                    <!--==== Project Modal ====-->
+                    <div class="modal fade project-item-1">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+<!--                              <h4 class="modal-title">Webdesign #1 <span>webdesign</span></h4>Modal Title, Subtitle -->
+                            <img src="assets/images/projets/benjaminbutton-projet1.png" alt="" />
+                          </div>
+                          <div class="modal-body">
+                            <h3>NouvoThé</h3>
+                            <br>
+                            <p>
+                            
+                            <strong>Mandat:</strong><br> Créer un site web responsive décrivant un film en 8 étapes<br><br>
+                            <strong>Envergure:</strong><br>Conception, design web, développement, stratégie (avec le client), branding, rédaction, design d'interfaces mobiles et tournage d'une vidéo interactive intégrée au site web.<br><br>
+                            
+                            <strong>Technologies utilisées:</strong><br>
+                            Bootstrap, Javascript, After Effects, Premiere.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+					<!-- ==== END PROJECT ITEM ==== -->
+               
+               <!-- ==== PROJECT ITEM ==== -->
+                <article class="project-item " data-toggle="modal" data-target=".project-item-4">
+                    <img class="img-responsive project-image" src="assets/images/projets/scene3d-thumb.png" alt="">
+                    <!--Project thumb -->
+                    <h2 class="project-title">Scène animée - 3D</h2>
+                    <!--Project Title -->
+                </article>
+
+                <!--==== Project Modal ====-->
+                <div class="modal fade project-item-4">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title">Webdesign #2 <span>webdesign</span></h4>
+                                <!--Modal Title, Subtitle -->
+                                <img src="assets/images/projets/scene3d-projet.jpg" alt="" />
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==== END PROJECT ITEM ==== -->
+
+                <!-- ==== PROJECT ITEM ==== -->
+                <article class="project-item ux" data-toggle="modal" data-target=".project-item-7">
+                    <img class="img-responsive project-image" src="assets/images/projets/zelda-thumb.png" alt="">
+                    <!--Project thumb -->
+                    <h2 class="project-title">Animation et jeu - 2D</h2>
+                    <!--Project Title -->
+                </article>
+
+                <!--==== Project Modal ====-->
+                <div class="modal fade project-item-7">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title">Photography, logo #3 <span>photography, logo</span></h4>
+                                <!--Modal Title, Subtitle -->
+                                <img src="assets/images/projets/zelda-projet.png" alt="" />
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==== END PROJECT ITEM ==== -->
+
+                <!-- ==== PROJECT ITEM ==== -->
+                <article class="project-item strategie" data-toggle="modal" data-target=".project-item-8">
+                    <img class="img-responsive project-image" src="assets/images/projets/content-thumb.png" alt="">
+                    <!--Project thumb -->
+                    <h2 class="project-title">Ma philosophie</h2>
+                    <!--Project Title -->
+                </article>
+
+                <!--==== Project Modal ====-->
+                <div class="modal fade project-item-8">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title">Logo, webdesign #1 <span>logo, webdesign</span></h4>
+                                <!--Modal Title, Subtitle -->
+                                <img src="assets/images/projets/content-projet.jpeg" alt="" />
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==== END PROJECT ITEM ==== -->
+
+                <!-- ==== PROJECT ITEM ==== -->
+                <article class="project-item strategie marketing ux" data-toggle="modal" data-target=".project-item-9">
+                    <img class="img-responsive project-image" src="assets/images/projets/sauce-thumb.png" alt="">
+                    <!--Project thumb -->
+                    <h2 class="project-title">Marketing web - campagne</h2>
+                    <!--Project Title -->
+                </article>
+
+                <!--==== Project Modal ====-->
+                <div class="modal fade project-item-9">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title">Webdesign #4 <span>webdesign</span></h4>
+                                <!--Modal Title, Subtitle -->
+                                <img src="assets/images/projets/sauce-projet.png" alt="" />
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==== END PROJECT ITEM ==== -->
+
+                <!-- ==== PROJECT ITEM ==== -->
+                <article class="project-item ux" data-toggle="modal" data-target=".project-item-3">
+                    <img class="img-responsive project-image" src="assets/images/projets/lego-thumb.png" alt="">
+                    <!--Project thumb -->
+                    <h2 class="project-title">Site web - refonte</h2>
+                    <!--Project Title -->
+                </article>
+
+                <!--==== Project Modal ====-->
+                <div class="modal fade project-item-3">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title">Photography, logo #2 <span>photography, logo</span></h4>
+                                <!--Modal Title, Subtitle -->
+                                <img src="assets/images/projets/lego-projet.png" alt="" />
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==== END PROJECT ITEM ==== -->
+
+
+
+                <!-- ==== PROJECT ITEM ==== -->
+                <article class="project-item " data-toggle="modal" data-target=".project-item-5">
+                    <img class="img-responsive project-image" src="assets/images/projets/paris-thumb.png" alt="">
+                    <!--Project thumb -->
+                    <h2 class="project-title">Intégration web</h2>
+                    <!--Project Title -->
+                </article>
+
+                <!--==== Project Modal ====-->
+                <div class="modal fade project-item-5">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title">Photography, webdesign #1 <span>photography, webdesign</span></h4>
+                                <!--Modal Title, Subtitle -->
+                                <img src="assets/images/projets/paris-projet.png" alt="" />
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==== END PROJECT ITEM ==== -->
+
+                <!-- ==== PROJECT ITEM ==== -->
+                <article class="project-item " data-toggle="modal" data-target=".project-item-6">
+                    <img class="img-responsive project-image" src="assets/images/projets/everest-thumb.png" alt="">
+                    <!--Project thumb -->
+                    <h2 class="project-title">Intégration web</h2>
+                    <!--Project Title -->
+                </article>
+
+                <!--==== Project Modal ====-->
+                <div class="modal fade project-item-6">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"><i class="fa fa-times"></i>
+</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title">Webdesign #3 <span>webdesign</span></h4>
+                                <!--Modal Title, Subtitle -->
+                                <img src="assets/images/projets/everest-projet.png" alt="" />
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum egestas lectus, in efficitur metus gravida eu. Duis molestie mauris id pharetra varius. Mauris aliquet ut eros ac iaculis. Duis sagittis faucibus mi sed rhoncus. Sed commodo magna quam, id cursus nibh congue ac. Phasellus sollicitudin orci sapien, id dignissim nulla dapibus id. Cras volutpat orci et nibh convallis, a auctor nisi sodales. Phasellus pulvinar non tellus nec posuere. Maecenas risus dui, interdum et nibh vel, iaculis porttitor purus. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==== END PROJECT ITEM ==== -->
+
+
+
+
+
+
+
+            </div>
+            <!-- End projects -->
+
+        </div>
+        <!-- End container -->
+
+
+    </section>
+    <!-- End portfolio section -->
+
+    <!-- ==============================================
+        CONTACT
+        =============================================== -->
+    <section id="contact" class="">
+
+        <div class="container">
+
+            <div class="row">
+
+
+                <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
+                    <a href="#contact-modal" data-toggle="modal" data-target="#contact-modal">
+                        <!--
+                        <h1 class="big-text  wow fadeInDown text-center btn btn-primary" data-wow-offset="100">
+                            <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i><br>
+                            Résultat du quiz
+                        </h1>
+-->
+                    </a>
+                    <a href="#contact-modal" data-target="#contact-modal">
+                        <div class="btn-primary" id="face-result">Résultat</div>
+                    </a>
+                </div>
+
+                <!--
+                <div class="row text-center">
+                    <a href="#contact-modal">
+                        <div class="btn btn-success btn-lg resultat" data-toggle="modal" data-target="#contact-modal"><i class="fa fa-2x fa-spinner" aria-hidden="true"></i>
+                            <br>Résultat du quiz</div>
+                    </a>
+                </div>
+-->
+
+                <div class="container">
+                    <div class="modal fade" id="contact-modal">
+                        <div class="modal-dialog modal-md">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3><span class="label label-warning" id="qid"></span>ET VOILÀ!</h3>
+                                    <p>Il ne vous reste plus qu'une étape à franchir pour rencontrer la perle rare. </p>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="col-xs-3 col-xs-offset-5">
+
+                                    </div>
+
+                                    <div class="quiz" data-toggle="buttons">
+                                        <label id="cell" class="element-animation1 btn btn-lg btn-warning btn-block"><span class="btn-label"><i class="fa fa-2x fa-phone" aria-hidden="true"></i></span>
+                                            <input type="radio" name="q_answer" value="1">&nbsp; (514) 654-8113</label>
+
+                                        <label id="mail" class="element-animation2 btn btn-lg btn-info btn-block"><span class="btn-label"><i class="fa fa-2x fa-envelope-o" aria-hidden="true"></i>
+</span>
+                                            <input type="radio" name="q_answer" value="2">&nbsp; mattqcca@gmail.com</label>
+
+                                        <label id="link" class="element-animation3 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></span>
+                                            <input type="radio" name="q_answer" value="3">&nbsp; Mathieu Roy, MBA</label>
+
+                                        <label id="github" class="element-animation4 btn btn-lg btn-danger btn-block"><span class="btn-label"><i class="fa fa-2x fa-github" aria-hidden="true"></i></span>
+                                            <input type="radio" name="q_answer" value="4">&nbsp; GitHub</label>
+                                           
+                                        <label id="cv" class="element-animation4 btn btn-lg btn-success btn-block"><span class="btn-label"><i class="fa fa-2x fa-trophy" aria-hidden="true"></i></span>
+                                            <input type="radio" name="q_answer" value="4">&nbsp; CV</label>
+                                            
+                                        
+                                                
+                                    </div>
+                                </div>
+                                <div class="modal-footer text-muted">
+                                    
+                                    <div id="answer" class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/mattqcca?tab=repositories%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"><i class="fa fa-2x fa-share" aria-hidden="true"></i>&nbsp; Partager ce lien</a>
+                                    <span class="btn btn-default" id="answer2">
+                                         
+                                    </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+    </section>
+    <!--=== End Contact section ===-->
+
+    <!-- ==============================================
+		FOOTER
+		=============================================== -->
+
+    <footer id="main-footer" class="">
+        <!-- FOOTER MAP -->
+        <p>Mathieu Roy &#151; Stratège et développeur, solutions numériques </p>
+
+    </footer>
+    <!--=== End Footer ===-->
+
+    <!-- ==============================================
+		SCRIPTS
+		=============================================== -->
+
+    <script src="assets/js/libs/jquery-1.11.3.min.js"></script>
+    <script src="assets/js/libs/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/jquery.easypiechart.min.js"></script>
+    <script src="assets/js/jquery.masonry.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+
+    <script src="assets/js/jquery.scrollmagic.min.js"></script>
+
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+
+    <script src="assets/js/scripts.js"></script>
+
+    <script>
+        new WOW().init();
+
+        /*============================================
+        Map
+        ==============================================*/
+        var mapPoint = {
+            'lat': 47.496733,
+            'lng': 19.044748,
+            'zoom': 15,
+            'icon': 'assets/images/marker.png'
+        };
+    </script>
+
+</body>
+
+</html>
