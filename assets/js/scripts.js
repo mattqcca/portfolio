@@ -30,7 +30,8 @@ $(document).ready(function () {
         });
 
         $('#home .container').css({
-            'opacity': (1.6 - st / 400)
+            'opacity': (1.6 - st / 400),
+            'z-index': -1
         });
 
         if ($(window).scrollTop() > ($(window).height() + 50)) {
@@ -203,9 +204,12 @@ $(document).ready(function () {
 
     });
 
-    
-    
 
+    $("#face-btn").on("click", function () {
+        $('html, body').animate({
+            scrollTop: $("#about").offset().top + 70
+        }, 1200);
+    });
 
     $("#test").on("click", function () {
         $("#contact-modal").modal('show');
@@ -354,29 +358,29 @@ $(document).ready(function () {
 
     });
 
-    
-    
+
+
     $("#cell").click(function () {
         window.location.href = "tel:15146548113";
     });
-    
+
     $("#mail").click(function () {
         window.location.href = "mailto:mattqcca@gmail.com";
     });
-    
+
     $("#link").click(function () {
         window.open("https://www.linkedin.com/in/mathieuroymba");
     });
-    
+
     $("#cv").click(function () {
         window.open("assets/images/cv-mathieuroy.pdf");
     });
-    
+
     $("#github").click(function () {
         window.open("https://github.com/mattqcca?tab=repositories");
     });
-    
-    
+
+
 
 
 

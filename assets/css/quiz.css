@@ -280,6 +280,10 @@ label > a {
     font-weight: 400;
 }
 
+#face-btn:hover {
+    background-color: #354783 !important;
+}
+
 #face-result {
     padding: 35px 0px;
     text-align: center;
